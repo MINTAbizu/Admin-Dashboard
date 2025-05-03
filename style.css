@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+.sidebar {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    /* display: flex; */
+    height: auto;
+}
+.sidebar div{
+    padding: 5px;
+}
+.container{
+    display: flex;
+    
+}
+
+body{
+    background-color:hwb(34 84% 13%);
+}
+.sidebar {
+    background-color:white;
+    color: black;
+    width: 250px;
+    /* padding: 10px; */
+}
+/* .sidebar:hover{
+    opacity: 0.5;
+
+} */
+.sidebar div:hover{
+    transform: translateX(10px);
+}
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dashboard {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.dashboard h2 {
+    margin: 0;
+    margin-right: 10px;
+}
+.sidebar h2:hover {
+    color: black;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* gap: 30px; */
+    /* margin: 0 auto; */
+    color: black;
+    width: 100%;
+}
+
+
+.sidebar div {
+    display: flex;
+    align-items: center;
+    /* margin: 5px 0; */
+    cursor: pointer;
+}
+.sidebar .close{
+    display:none;
+    color: red;
+    
+}
+.sidebar span a.active{
+    color: gray;
+
+}
+.message{
+    display: flex;
+    justify-content: space-between;
+}
+
+.message .messagecount{
+    background-color: red;
+    border-radius: 3px;
+    margin: 10px;
+    width: 50%;
+    
+}
+/* Card */
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    
+    /* background-color: gray; */
+    /* gap: 10px; */
+}
+
+.sales{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    
+
+    
+   
+}
+.dashboard2{
+    margin-top: -20px;
+    margin-bottom: 0;
+    padding: 10px;
+
+}
+.date{
+    margin-top: -25px;
+    padding: 5px;
+}
+
+.price{
+    padding: 15px;
+}
+.progress svg{
+    align-items: center;
+justify-content: center;
+margin-left: 50px !important;
+    width: 65%;
+    margin-top: 80px;
+}
+.percent{
+    margin-top: -80px;
+}
+.analytics2{
+    width:25%;
+    height: 90%;
+    background-color: red;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.analytics3{
+    width:25%;
+    height: 75%;
+    background-color:green;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+h2{
+    font-size:12px;
+}
+.progress {
+    transform: rotate(180deg);
+}
+
+.background-circle {
+    fill: none;
+    stroke: #e0e0e0; /* Light grey for background */
+    stroke-width: 14px;
+    
+}
+
+.progress-circle {
+    fill: none;
+    stroke: green; /* Progress color */
+    stroke-width: 14px;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease; /* Smooth transition */
+}
+.progress-circle2 {
+    fill: none;
+    stroke: red; /* Progress color */
+    stroke-width: 14px;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease; /* Smooth transition */
+}
+.title ,
+.price{
+    margin-top: -10px;
+}
+.progress{
+    margin-left: 90px;
+    margin-top: -50px;
+}
+.percent{
+    margin-top: -130px;
+}
+.dashboard23{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.logout{
+    margin-top: 60px;
+    padding: 20px;
+    color: red;
+}
+img{
+    width: 50%;
+}
+
+/* right-side */
+
+
+.right2{
+    background-color: hsl(0, 0%, 96%);
+    border-radius: 10px;
+    /* margin-left: -40px; */
+    width: 350px;
+    margin-right: 10px;
+}
+.light span{
+    margin-right: 130px;
+}
+
+/* right */
+
+.profile img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    left:0
+}
+.rightcard{
+    background-color:white;
+    height: 250px;
+    border-radius:10px;
+    /* text-align:center; */
+    margin:5px;
+}
+.profile{
+    display:flex;
+    padding:5px;
+}
+.message{
+    padding:10px
+}
+.adminprofile img{
+   
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+.adminprofile img {
+    right: 0;
+    /* left: 0; */
+    margin-left: -200px;
+}
+.lightdrk{
+    display: flex;
+}
+
+.recentupdates{
+    padding-left:20px;
+}
+/* .drklight{
+    margin-left: ;
+} */
+
+
+/* recentorders */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders are merged */
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd; /* Adds border to each cell */
+    text-align: center; /* Center text in table cells */
+}
+
+thead {
+    background-color: #f2f2f2; /* Light background for the header */
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9; /* Add hover effect for rows */
+}
+.recentorders{
+    margin-left: 250px;
+    margin-top: -230px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+}
+.view-dtails{
+    padding: 20px;
+}
+th {
+    /* padding: 30px; */
+    text-align: c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidebar {
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 100vh; /* Full height of the viewport */
+    padding: 10px;
+    overflow-y: auto; /* Enables vertical scrolling */
+    position: relative; /* Position for dropdown */
+}
+
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: relative; /* Position relative to sidebar */
+    background-color: white;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown on hover */
+}
+
+nav div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav div:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+}
+
+
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+    .left, .rightside {
+        margin-left: 200px; /* Adjust for smaller sidebar */
+    }
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .left, .rightside {
+        margin-left: 0;
+        padding: 10px;
+    }
+    .container {
+        flex-direction: column;
+    }
+}
